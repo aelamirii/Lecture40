@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app = "ShoppingList">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="CSS/Styles.css">
+
+    <!--  Libraries -->
+    <script src = "Lib/angular.min.js"></script>
+    <script src = "Lib/angular-ui-router.min.js"></script>
+
+    <!-- Module -->
+    <script src = "Try3/ShoppingList/ShoppingList.module.js"></script>
+
+    <!-- Routes -->
+    <script src = "Try3/Routes.js"></script>
+
+    <!-- ShoppingList module artifacts -->
+    <script src = "Try3/ShoppingList/ShoppingList.component.js"></script>
+    <script src = "Try3/ShoppingList/main-ShoppingList.controller.js"></script>
+    <script src = "Try3/ShoppingList/ShoppingList.service.js"></script>
+
+    <script src = "Try3/ShoppingList/Item-Detail.Controller.js"></script>
+
+    <title> Welcome to premade no cookie shopping list </title>
+  </head>
+  <body>
+
+    <h1> Welcome to premade no cookie shopping list </h1>
+
+    <ui-view></ui-view>
+
+  </body>
+</html>
